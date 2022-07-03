@@ -76,6 +76,10 @@ contract EtherStaking {
         return positions[positionId];
     }
 
+    function getTierbyId(uint id) external view returns(uint){
+        return tiers[id];
+    }
+
     function getPositionIdsForAddress(address walletAddress) external view returns (uint[] memory){
         return posiitonIdsByAddress[walletAddress];
     }
