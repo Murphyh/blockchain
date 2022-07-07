@@ -1,4 +1,4 @@
-# blockchain
+# hardhat cmdline 
 1. mkdir 
 2. npm init --yes
 3. npm i --save-dev hardhat
@@ -8,3 +8,11 @@
 6. add line in hardhat.config.js
 
 require("@nomiclabs/hardhat-waffle");
+
+7. npx hardhat test
+
+8. npm install --save chai
+
+9.npx hardhat run --network localhost scripts/1_deploy.js
+
+10.npx hardhat node

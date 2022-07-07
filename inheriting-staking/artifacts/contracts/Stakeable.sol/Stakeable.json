@@ -1,0 +1,47 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Stakeable",
+  "sourceName": "contracts/Stakeable.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "user",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "timestamp",
+          "type": "uint256"
+        }
+      ],
+      "name": "Staked",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x60806040526103e8600255348015601557600080fd5b50600060018160018154018082558091505003906000526020600020905050603f8060416000396000f3fe6080604052600080fdfea264697066735822122090b44191c16349f190138f7e211a52c0645128ca28f16e7560f0e9ac6667955e64736f6c63430007030033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122090b44191c16349f190138f7e211a52c0645128ca28f16e7560f0e9ac6667955e64736f6c63430007030033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
