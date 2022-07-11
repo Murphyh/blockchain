@@ -1,3 +1,5 @@
+web3 = require("web3")
+
 advanceTime = (time) => {
     return new Promise((resolve, reject) => {
       web3.currentProvider.send({

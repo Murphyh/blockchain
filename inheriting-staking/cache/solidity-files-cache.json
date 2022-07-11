@@ -37,8 +37,8 @@
       ]
     },
     "/Users/haihuynh/Documents/Wordspace/repo/blockchain/inheriting-staking/contracts/Token.sol": {
-      "lastModificationDate": 1657180661732,
-      "contentHash": "5d0afb850531ce1700dfe92e718afbe3",
+      "lastModificationDate": 1657476864127,
+      "contentHash": "47c226a0a9cf0fc0f58e8b7bb226ded1",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
         "version": "0.8.4",
